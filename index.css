@@ -1,3 +1,4 @@
+/* This is the CSS for the HTML and body elements */
 html, body {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@ html, body {
     user-select: none;
 }
 
+/* This is the CSS for the container class */
 .container {
     display: flex;
     flex-direction: column;
@@ -14,11 +16,13 @@ html, body {
     margin: 30px auto;
 }
 
+/* This is the CSS for the img tag */
 img {
     width: 150px;
     margin: 0 auto;
 }
 
+/* This is the CSS for the input tag */
 input {
     color: #432000;
     background-color: #DCE1EB;
@@ -31,6 +35,7 @@ input {
     margin: 10px 0;
 }
 
+/* This is the CSS for the button tag */
 button {
     color: #FDFDFD;
     background-color: #AC485A;
@@ -42,11 +47,13 @@ button {
     font-family: 'Rubik', sans-serif;
 }
 
+/* This is the CSS for the button hover state */
 button:hover {
     background-color: #432000;
     cursor: pointer;
 }
 
+/* This is the CSS for the ul tag */
 ul {
     list-style-type: none;
     padding: 0;
@@ -55,6 +62,7 @@ ul {
     gap: 10px;
 }
 
+/* This is the CSS for the li tag within the ul tag */
 ul li {
     font-size: 20px;
     background-color: #FFFDF8;
